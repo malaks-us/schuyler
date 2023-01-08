@@ -3,7 +3,7 @@
 PROG="$(basename "$0")"
 USER="${SUDO_USER:-${USER}}"
 HOME="${USER_HOME:-${HOME}}"
-CNAME="schuyler.malaks.us"
+CNAME="malaks-us.github.io/schuyler"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 printf '%s\n' "deploying website in $(basename "$PWD")"
 cd $PWD || exit 1
